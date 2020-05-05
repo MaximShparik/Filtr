@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  // background: #171919;
+  // color: white;
+  // text-transform: uppercase;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: url(../img/header-bg.jpg) 100% 0px no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+ul,li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.container__name {
+  font-size: 33px;
+  line-height: 53px;
+  margin: 0px 0px 60px;
+  padding-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.row__border-top{
+  background: linear-gradient(to top,rgba(184, 154, 130, 0),white);
+  height: 30px;
+}
+.row__border-bottom{
+  background: linear-gradient(to bottom,rgba(184, 154, 130, 0),white);
+  height: 30px;
+}
