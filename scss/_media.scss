@@ -1,0 +1,125 @@
+@media (max-width:1200px){
+  .container__workexample-item{
+    text-align: center;
+  }
+  .workexample-item--img{
+    width: 300px;
+  }
+  .workexample-item--title,.workexample-item--subtitle{
+    text-align: left;
+  }
+}
+
+@media (max-width:1150px){
+  .footer__row .container{
+    padding: 30px;
+  }
+  .container{
+    width: 900px;
+  }
+  .workexample-item--img{
+    width: 250px;
+  }
+  .header__row .header__row-title{
+    font-size: 30px;
+  }
+  .header__row .header__row-btn{
+    top: 21px;
+  }
+  .partners-img{
+    width: 140px;
+  }
+}
+
+@media (max-width:950px){
+
+  .header__title{
+    font-size: 45px;
+    padding-top: 80px;
+  }
+  .container{
+    width: 700px;
+  }
+  .header__statistic-item .statistic-main{
+    font-size: 50px;
+  }
+  .header__statistic-item .statistic-title{
+    font-size: 35px;
+  }
+  .header__statistic{
+    padding: 30px;
+  }
+  .workexample-item--img{
+    width: 200px;
+  }
+  .partners-img{
+    width: 100px;
+  }
+  .header__row .header__row-title{
+    font-size: 25px;
+  }
+  .gray .header__row-title{
+    padding: 30px;
+  }
+}
+@media (max-width:700px){
+  body{
+    background: url(../img/mobile-bg.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+  #white{
+    opacity: 0.8;
+  }
+  .container{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+  .workexample-item--img{
+    width: 250px;
+  }
+  .container__workprofil{
+    width: 100%;
+  }
+  .container__workexample,.container__workexample, .container__feedback{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .container__workexample-item,.container__feedback-item{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .header__row-btn{
+    left: 440px;
+  }
+  .container__contact{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .header__row{
+    display: none;
+  }
+  .container__workprofil-item{
+    width: 90%;
+    height: 230px;
+  }
+  .item__description-1, .item__description-2{
+    width: 80%;
+  }
+  .contact-item--subtitle{
+    font-size: 16px;
+  }
+}
+@media (max-width:500px){
+  .header__subtitle{
+    margin-bottom: 50px;
+  }
+  .header__statistic{
+    display: none;
+  }
+  .footer__row .container{
+    padding: 10px;
+  }
+}
